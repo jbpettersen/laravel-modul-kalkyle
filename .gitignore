@@ -1,0 +1,20 @@
+/vendor
+/node_modules
+/.env
+/public/storage
+/storage/*.key
+/storage/oauth-private.key
+/storage/oauth-public.key
+/storage/debugbar
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+.phpunit.result.cache
+
+# IDE/Editor
+.idea
+.vscode
+
+# Docker bind mounts
+docker-compose.override.yml
