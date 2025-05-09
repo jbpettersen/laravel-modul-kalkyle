@@ -16,7 +16,6 @@ services:
       DB_DATABASE: laravel
       DB_USERNAME: root
       DB_PASSWORD: root
-    command: php artisan serve --host=0.0.0.0 --port=8000
   db:
     image: mysql:8.0
     container_name: mysql-db
