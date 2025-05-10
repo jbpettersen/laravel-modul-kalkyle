@@ -1,15 +1,16 @@
-/vendor
+/src/vendor
 /node_modules
-/.env
-/public/storage
-/storage/*.key
-/storage/oauth-private.key
-/storage/oauth-public.key
-/storage/debugbar
-/storage/framework/cache
-/storage/framework/sessions
-/storage/framework/views
-/storage/logs
+/src/node_modules
+/src/.env
+/src/public/storage
+/src/storage/*.key
+/src/storage/oauth-private.key
+/src/storage/oauth-public.key
+/src/storage/debugbar
+/src/storage/framework/cache
+/src/storage/framework/sessions
+/src/storage/framework/views
+/src/storage/logs
 .phpunit.result.cache
 
 # IDE/Editor
